@@ -13,7 +13,6 @@ public class AbstractTest {
         WebDriverManager.chromedriver().setup();
         options = new ChromeOptions();
         options.addArguments("--incognito");
-        //options.addArguments("--headless");
         options.addArguments("start-maximized");
         options.addArguments("--remote-allow-origins=*");
     }
